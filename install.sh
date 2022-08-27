@@ -109,8 +109,6 @@ wget --quiet https://storage.googleapis.com/flutter_infra_release/releases/stabl
 
 tar xf flutter.tar.xz
 
-git config --global --add safe.directory $FLUTTER_HOME
-
 flutter config --no-analytics
 flutter config
 
